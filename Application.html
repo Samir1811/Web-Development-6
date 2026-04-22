@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+    <link rel="stylesheet" href="assets/mystyle.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+  </head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <div class="logo">
+            <img src="logo.png" alt="Hot Beans Logo" class="logo">
+          </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="Application.html">Application Form</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Homepage.html">Homepage</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Team.html">The Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Specs&Qual.html">Specifications and Qualifications</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="WebDev.html">Web Development Courses</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+<div class="container">
+  <h2>Job Application Form</h2>
+  <p id="responseMessage" style="font-weight: bold;"></p>
+  <form action="#" method="post" enctype="multipart/form-data">
+    
+    <label>Full Name</label>
+    <input type="text" name="fullname" required>
+
+    <div class="row">
+      <div>
+        <label>Email</label>
+        <input type="email" name="email" required>
+      </div>
+      <div>
+        <label>Phone Number</label>
+        <input type="tel" name="phone" required>
+      </div>
+    </div>
+
+    <label>Address</label>
+    <input type="text" name="address">
+
+    <label>Positon of Application</label>
+    <select name="position">
+      <option value="">Select</option>
+      <option>Front End Developer</option>
+      <option>Back End Developer</option>
+      <option>Web Development Trainer</option>
+      <option>Web Application Developer</option>
+      <option>Junior Web Developer</option>
+      <option>Full Stack Developer</option>
+    </select>
+
+    <label>Upload Resume/CV (PDF/DOC)</label>
+    <input type="file" name="resume" accept=".pdf,.doc,.docx">
+
+    <button type="submit">Submit Application</button>
+  </form>
+</div>
+
+<div class="apply-box">
+  <div class="info-container">
+
+    <div class="info-image">
+      <img src="development.jpg" alt="Developers Working">
+    </div>
+
+    <div class="info-text">
+      <h3>What you Gain From Us</h3>
+      <p>
+        Join our web development company to work on exciting, real-world projects that push your skills and creativity. 
+        You'll collaborate with a passionate team, grow quickly in a supportive environment, and build digital experiences that make a real impact.
+      </p>
+      <p>
+        If you're driven, curious and love creating great websites, this is the place for you.
+      </p>
+    </div>
+
+  </div>
+</div>
+
+      <footer>
+        <p>©Hot Beans Web Development 2026</p>
+        <div class="social-icons">
+          <a href="#"><i class="bi bi-instagram"></i></a>
+          <a href="#"><i class="bi bi-twitter-x"></i></a>
+          <a href="#"><i class="bi bi-facebook"></i></a>
+          <a href="#"><i class="bi bi-linkedin"></i></a>
+        </div>
+      </footer>
+<script src="Form.js"></script>
+</body>
+</html>
